@@ -1,0 +1,64 @@
+#profileImage {
+  height: 150px;
+  width: 150px;
+  padding: 25px;
+}
+textarea {
+  padding: 10px;
+  margin: 0px;
+  width: 380px;
+  height: 22px;
+  border-radius: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: orangered;
+  box-shadow: palegreen;
+}
+#submit {
+  position: absolute;
+  top: 86%;
+  left: 25%;
+}
+#image-submit {
+  position: absolute;
+  left: 60%;
+  top: 12%;
+}
+
+#info-submit {
+  position: absolute;
+  left: 33%;
+  top: 75%;
+}
+#submit-profile-image {
+  position: absolute;
+  top: 300px;
+  left: 10px;
+}
+#info-form {
+  background-color: gainsboro;
+  width: 37%;
+  border-radius: 20px;
+  margin: 0px;
+  padding-bottom: 30px;
+  padding: 10px;
+}
+#image-container {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 10px;
+  border: dotted;
+  border-width: 5px;
+}
+
+#user-container {
+  display: flex;
+  flex-direction: row;
+}

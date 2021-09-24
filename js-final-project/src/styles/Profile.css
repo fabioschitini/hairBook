@@ -1,0 +1,33 @@
+#profileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 32px;
+  margin-left: 104px;
+}
+button {
+  color: black;
+}
+#editButtons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin-top: 50px;
+  position: absolute;
+  top: 70%;
+}
+
+#profile-image {
+  height: 60px;
+  display: block;
+  border-radius: 50px;
+  margin: 10px;
+  position: relative;
+  top: -15px;
+}
+
+#userName {
+  font-size: 30px;
+  margin: 10px;
+}

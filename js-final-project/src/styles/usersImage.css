@@ -1,0 +1,10 @@
+.usersImage {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 20px;
+}
+.in {
+  display: flex;
+  flex-direction: row;
+}

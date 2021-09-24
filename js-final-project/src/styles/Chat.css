@@ -1,0 +1,164 @@
+body {
+  background-color: white;
+}
+#UsersDiv {
+  position: fixed;
+  top: 10%;
+  width: 300px;
+  background-color: cadetblue;
+  height: 700px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 82%;
+  border-radius: 10px;
+}
+#ChatDiv {
+  position: fixed;
+  top: 450px;
+  left: 812px;
+}
+#MessageDiv {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 500px;
+  margin-bottom: 10px;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+#MessageDiv::-webkit-scrollbar {
+  width: 0.25rem;
+}
+#MessageDiv::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+#MessageDiv::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+#ChatHeader {
+  width: 430px;
+}
+.MessageTextUser {
+  background-color: coral;
+  border-radius: 10px;
+  position: relative;
+  height: 100px;
+  font-size: 20px;
+  margin: 13px;
+  white-space: pre-wrap;
+  padding: 10px;
+}
+.MessageTextTarget {
+  background-color: #b3a87b;
+  border-radius: 10px;
+  position: relative;
+  height: 100px;
+  font-size: 20px;
+  margin: 13px;
+  white-space: pre-wrap;
+}
+#TextArea {
+  margin: 0px;
+  width: 414px;
+  height: 27px;
+  border-radius: 10px;
+}
+#Submit {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+#Submit:hover {
+  color: orange;
+}
+
+.chatClosingX {
+  color: red;
+  position: relative;
+  left: 75%;
+  font-size: 20px;
+  cursor: pointer;
+  top: 12px;
+}
+.chatClosingX:hover {
+  color: rgb(151, 75, 25);
+  box-shadow: orangered;
+}
+
+.usersClosingX {
+  color: red;
+  position: absolute;
+  left: 90%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.usersClosingX:hover {
+  color: rgb(151, 75, 25);
+  box-shadow: orangered;
+}
+
+.listNames {
+  color: red;
+  cursor: pointer;
+  margin: 5px;
+}
+.listNames:hover {
+  color: rgb(151, 75, 25);
+  box-shadow: orangered;
+}
+
+#showUsers {
+  color: white;
+}
+#showUsers:hover {
+  color: rgb(151, 75, 25);
+  box-shadow: orangered;
+}
+.user-name {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.user-name:hover {
+  color: red;
+  box-shadow: orangered;
+}
+.p-name {
+  margin: 5px;
+}
+
+.image-user-list {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 0;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  background-color: #a4aeb7;
+  height: 43px;
+}
+
+.header-image {
+  height: 40px;
+  display: block;
+  margin: 0;
+}
+#form {
+  border: groove;
+  border-width: 5px;
+  display: flex;
+  position: relative;
+  top: -9px;
+}
+a {
+  color: currentcolor;
+}

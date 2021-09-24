@@ -1,0 +1,32 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+li {
+  color: white;
+  list-style: none;
+  padding: 10px;
+}
+li:hover {
+  color: rgb(143, 66, 38);
+}
+nav {
+  background-color: black;
+
+  position: relative;
+  top: -17px;
+}
+
+a {
+}
+.usersImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+#profile-div {
+  display: flex;
+  flex-direction: row;
+}
