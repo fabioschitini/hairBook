@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.56ba7915.chunk.css",
-    "main.js": "/static/js/main.a3f0f7ad.chunk.js",
-    "main.js.map": "/static/js/main.a3f0f7ad.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.24d0df1c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.24d0df1c.js.map",
-    "static/js/2.cb68a759.chunk.js": "/static/js/2.cb68a759.chunk.js",
-    "static/js/2.cb68a759.chunk.js.map": "/static/js/2.cb68a759.chunk.js.map",
-    "static/js/3.e0a12e94.chunk.js": "/static/js/3.e0a12e94.chunk.js",
-    "static/js/3.e0a12e94.chunk.js.map": "/static/js/3.e0a12e94.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.56ba7915.chunk.css.map": "/static/css/main.56ba7915.chunk.css.map",
-    "static/js/2.cb68a759.chunk.js.LICENSE.txt": "/static/js/2.cb68a759.chunk.js.LICENSE.txt"
+    "main.css": "/hairBook/static/css/main.56ba7915.chunk.css",
+    "main.js": "/hairBook/static/js/main.a3f0f7ad.chunk.js",
+    "main.js.map": "/hairBook/static/js/main.a3f0f7ad.chunk.js.map",
+    "runtime-main.js": "/hairBook/static/js/runtime-main.ef758893.js",
+    "runtime-main.js.map": "/hairBook/static/js/runtime-main.ef758893.js.map",
+    "static/js/2.ee35f606.chunk.js": "/hairBook/static/js/2.ee35f606.chunk.js",
+    "static/js/2.ee35f606.chunk.js.map": "/hairBook/static/js/2.ee35f606.chunk.js.map",
+    "static/js/3.e0a12e94.chunk.js": "/hairBook/static/js/3.e0a12e94.chunk.js",
+    "static/js/3.e0a12e94.chunk.js.map": "/hairBook/static/js/3.e0a12e94.chunk.js.map",
+    "index.html": "/hairBook/index.html",
+    "static/css/main.56ba7915.chunk.css.map": "/hairBook/static/css/main.56ba7915.chunk.css.map",
+    "static/js/2.ee35f606.chunk.js.LICENSE.txt": "/hairBook/static/js/2.ee35f606.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.24d0df1c.js",
-    "static/js/2.cb68a759.chunk.js",
+    "static/js/runtime-main.ef758893.js",
+    "static/js/2.ee35f606.chunk.js",
     "static/css/main.56ba7915.chunk.css",
     "static/js/main.a3f0f7ad.chunk.js"
   ]
