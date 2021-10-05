@@ -7,7 +7,7 @@ import EditInfo from './components/EditInfo'
 import Post from './components/Post'
 import Home from './components/Home'
 import Profilepictures from './components/Profilepictures'
-import Editpictures from './components/editPicture'
+//import Editpictures from './components/editPicture'
 import Users from './components/Users'
 function App() {
   //const auth = app.auth()
@@ -21,7 +21,7 @@ function App() {
         <Nav> </Nav>
         
         <Switch>
-            <Route exact path='/'><Home/></Route>
+            <Route exact path='/hairBook'><Home/></Route>
           <Route exact path='/post'><Post /></Route>
           <Route exact path='/profile'><Profile /></Route>
           <Route exact path='/profile/editInfo'><EditInfo/></Route>
@@ -30,9 +30,7 @@ function App() {
           <Route exact path='/users/profile'><Profile  /></Route>
           <Route exact path='/users/profile/pictures'><Profilepictures /></Route>
 
-          <Route exact path='/:handle' >
-            <Editpictures />
-          </Route>
+         
 
 
         </Switch>

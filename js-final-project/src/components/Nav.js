@@ -25,7 +25,7 @@ const Nav = (props) => {
         
                 {user ?
                 <ul>  
-                    <Link to="/"> <li>Homepage</li></Link>
+                    <Link to="/hairBook"> <li>Homepage</li></Link>
             <Link to="/users"><li>Users</li></Link>
                     <Link to="/profile">
                         
