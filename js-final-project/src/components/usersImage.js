@@ -22,7 +22,7 @@ let userName=props.name
 
     if (users) {
         return(
-        <div className='in'>
+        <div id={props.id} className='in'>
             <img id={props.id} className='usersImage' alt='profile' src={users} />
             <p id={props.id}>{userName }</p>
             </div>

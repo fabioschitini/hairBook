@@ -35,7 +35,8 @@ const Chat = (props) => {
     
     async function showChat(e) {
         console.log(e)
-        if (!currentUser[0].filter(user => user.id === e.target.id)[0]) {
+        if (e.target.id) {
+            if (!currentUser[0].filter(user => user.id === e.target.id)[0]) {
             await db.collection(userId).doc(e.target.id).set({ messages: [], id: e.target.id, name: e.target.textContent })
             await db.collection(e.target.id).doc(userId).set({ messages: [], id: userId, name: userName })
             console.log('uploading users in the frined list')
@@ -43,6 +44,8 @@ const Chat = (props) => {
         const targetChat = await (await db.collection(userId).doc(e.target.id).get()).data()
         setChatWindow(targetChat)
         setChatName(e.target.innerHTML)
+        }
+        
     }
     async function onSubmit(e) {
         e.preventDefault()
