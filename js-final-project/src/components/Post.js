@@ -68,14 +68,14 @@ const Post = () => {
         })
 }
     return <div>
-        <h1>Post</h1>
+       
         <form onSubmit={onSubmit}> 
             <p id='imageSubmit'>Image:<input required onChange={(e) => setImageInfo(e.target.files[0])} type="file"  accept="image/*" />
                 <button type="button" onClick={UploadImage}>Upload Image</button></p> 
             <div id='imageContainer'>
             {url ? <img name="img" id='img'src={url} alt='The  yo Chosed'/> : null}
             </div>
-            <p id='info'>Info:</p> <textarea id='text'value={textInfo }onChange={(e) => setTextInfo(e.target.value)}></textarea>
+            <p id='info'></p> <textarea id='text'value={textInfo }onChange={(e) => setTextInfo(e.target.value)}></textarea>
             <button id='submit'>Submit</button>
         </form>
 

@@ -81,7 +81,7 @@ const Comments = (props) => {
             <form onSubmit={onSubmit}>
 
                 { user?<input placeholder='Comment here...' value={textInfo} onChange={(e) => setTextInfo(e.target.value)}></input>:null}
-                 <button type="button" onClick={showMoreComments}><i id='comment-icon' class="far fa-comments"></i></button>
+                 <button type="button" onClick={showMoreComments}><div id='ballon'><i id='comment-icon' class="far fa-comments"></i></div></button>
             </form>
             {userComments ? userComments.map(comments => {
                 if (comments.publicationId === props.id) {
@@ -110,7 +110,7 @@ const Comments = (props) => {
                     <div className='comment-container'>
                         <div className='comment-header'>
                             <UsersImage id={comments.personId} />
-                            <p  >{comments.userName}</p>
+                            <p  ></p>
                         </div>             
  <p className='comment-text'>{comments.text}</p>
 </div>                   )

@@ -23,7 +23,6 @@ const Profilepictures = () => {
            //<Publications id={userId}/>
 
     return <div>
-        <h1>Pictures</h1>
        <Publications id={userId}/>
     </div>
 }

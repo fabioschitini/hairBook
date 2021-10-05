@@ -80,7 +80,6 @@ const EditInfo = () => {
     }
 
     return (<div>
-        <h1>Edit Info</h1>
         <form id ='info-form'onSubmit={onSubmit}>
             <p>Name:</p> <textarea value={nameInfo} required onChange={(e)=>setNameInfo(e.target.value)}></textarea>
         <p>Birthday:</p> <textarea value={BirthDayInfo} required onChange={(e)=>setBirthDayInfo(e.target.value)}></textarea>

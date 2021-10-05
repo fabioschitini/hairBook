@@ -31,7 +31,7 @@ let userName=props.name
     else {
         return(
         
-        <div className='in'>
+        <div id={props.id} className='in'>
         <img id={props.id} className='usersImage' alt='any' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMV9SJKrpKP67CGJxKTlrHopj7HDE2J6hxw&usqp=CAU'/>
             <p id={props.id}>{userName }</p>
             </div>

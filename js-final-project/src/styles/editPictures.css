@@ -10,3 +10,13 @@
   width: 750px;
   margin-left: 24%;
 }
+#text {
+  position: absolute;
+  top: 92%;
+  display: block;
+  margin: 0px 163px 0px 0px;
+  width: 1398px;
+  height: 32px;
+}
+#submit {
+}

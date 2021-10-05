@@ -12,10 +12,16 @@
 }
 #text {
   position: absolute;
-  top: 82%;
+  top: 92%;
   display: block;
   margin: 0px 163px 0px 0px;
   width: 1398px;
   height: 32px;
   border-radius: 10px;
+}
+#submit {
+  position: absolute;
+  letter-spacing: 50%;
+  top: 95%;
+  left: 91%;
 }
